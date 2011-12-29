@@ -55,9 +55,7 @@ int main() {
 
     bool visited[52];
     int dist[52];
-    int prev[52];
     memset(visited, 0, sizeof(visited));
-    memset(prev, -1, sizeof(prev));
     for (int i = 0; i < 52; i++) {
         dist[i] = INFTY;
     }
